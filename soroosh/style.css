@@ -15,11 +15,11 @@
   display: flex;
   background-color: #f9f9f9;
   width: 100% !important;
-  height: 6.25rem;
+  /* height: 6.25rem; */
   justify-content: space-between;
-  position: fixed;
-  margin-top: 2.5rem;
-  padding: 2.81rem 6.25rem 0px 6.25rem;
+  /* position: fixed; */
+  /* margin-top: 2.5rem;
+  padding: 2.81rem 6.25rem 0px 6.25rem; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -166,6 +166,11 @@ display: block;
     }
   }
   @media screen and (min-width: 992px) {
+    .head-container{
+      position: fixed; 
+      margin-top: 2.5rem;
+      padding: 2.81rem 6.25rem 0px 6.25rem;
+    }
     .menuebar-item {
       display: flex;
       justify-content: space-around;
